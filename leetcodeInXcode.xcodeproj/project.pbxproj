@@ -24,6 +24,78 @@
 
 /* Begin PBXFileReference section */
 		628DE11C2F94D664003C9F82 /* 138. copyRandomList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "138. copyRandomList.h"; sourceTree = "<group>"; };
+		628DE11D2F951039003C9F82 /* 6. Zigzag Conversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "6. Zigzag Conversion.h"; sourceTree = "<group>"; };
+		628DE11E2F951039003C9F82 /* 7. Integer to Roman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "7. Integer to Roman.h"; sourceTree = "<group>"; };
+		628DE11F2F951072003C9F82 /* 76. Minimum Window Substring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "76. Minimum Window Substring.h"; sourceTree = "<group>"; };
+		628DE1202F951072003C9F82 /* 78. Subsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "78. Subsets.h"; sourceTree = "<group>"; };
+		628DE1212F951072003C9F82 /* 79. Word Search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "79. Word Search.h"; sourceTree = "<group>"; };
+		628DE1222F951072003C9F82 /* 84. Largest Rectangle in Histogram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "84. Largest Rectangle in Histogram.h"; sourceTree = "<group>"; };
+		628DE1232F951072003C9F82 /* 85. Maximal Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "85. Maximal Rectangle.h"; sourceTree = "<group>"; };
+		628DE1242F951072003C9F82 /* 94. Binary Tree Inorder Traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "94. Binary Tree Inorder Traversal.h"; sourceTree = "<group>"; };
+		628DE1252F951072003C9F82 /* 96. Unique Binary Search Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "96. Unique Binary Search Trees.h"; sourceTree = "<group>"; };
+		628DE1262F951072003C9F82 /* 98. Validate Binary Search Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "98. Validate Binary Search Tree.h"; sourceTree = "<group>"; };
+		628DE1272F951072003C9F82 /* 101. Symmetric Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "101. Symmetric Tree.h"; sourceTree = "<group>"; };
+		628DE1282F951072003C9F82 /* 102. Binary Tree Level Order Traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "102. Binary Tree Level Order Traversal.h"; sourceTree = "<group>"; };
+		628DE1292F951072003C9F82 /* 104. Maximum Depth of Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "104. Maximum Depth of Binary Tree.h"; sourceTree = "<group>"; };
+		628DE12A2F951072003C9F82 /* 105. Construct Binary Tree from Preorder and Inorder Traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "105. Construct Binary Tree from Preorder and Inorder Traversal.h"; sourceTree = "<group>"; };
+		628DE12B2F951072003C9F82 /* 114. Flatten Binary Tree to Linked List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "114. Flatten Binary Tree to Linked List.h"; sourceTree = "<group>"; };
+		628DE12C2F951072003C9F82 /* 121. Best Time to Buy and Sell Stock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "121. Best Time to Buy and Sell Stock.h"; sourceTree = "<group>"; };
+		628DE12D2F951072003C9F82 /* 124. Binary Tree Maximum Path Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "124. Binary Tree Maximum Path Sum.h"; sourceTree = "<group>"; };
+		628DE12E2F951072003C9F82 /* 128. Longest Consecutive Sequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "128. Longest Consecutive Sequence.h"; sourceTree = "<group>"; };
+		628DE12F2F951072003C9F82 /* 136. Single Number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "136. Single Number.h"; sourceTree = "<group>"; };
+		628DE1302F951072003C9F82 /* 138. copyRandomList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "138. copyRandomList.h"; sourceTree = "<group>"; };
+		628DE1312F951072003C9F82 /* 139. Word Break.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "139. Word Break.h"; sourceTree = "<group>"; };
+		628DE1322F951072003C9F82 /* 141. Linked List Cycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "141. Linked List Cycle.h"; sourceTree = "<group>"; };
+		628DE1332F951072003C9F82 /* 142. Linked List Cycle II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "142. Linked List Cycle II.h"; sourceTree = "<group>"; };
+		628DE1342F951072003C9F82 /* 146. LRU Cache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "146. LRU Cache.h"; sourceTree = "<group>"; };
+		628DE1352F951072003C9F82 /* 148. Sort List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "148. Sort List.h"; sourceTree = "<group>"; };
+		628DE1362F951072003C9F82 /* 152. Maximum Product Subarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "152. Maximum Product Subarray.h"; sourceTree = "<group>"; };
+		628DE1372F951072003C9F82 /* 155. Min Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "155. Min Stack.h"; sourceTree = "<group>"; };
+		628DE1382F951072003C9F82 /* 160. Intersection of Two Linked Lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "160. Intersection of Two Linked Lists.h"; sourceTree = "<group>"; };
+		628DE1392F951072003C9F82 /* 169. Majority Element.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "169. Majority Element.h"; sourceTree = "<group>"; };
+		628DE13A2F951072003C9F82 /* 198. House Robber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "198. House Robber.h"; sourceTree = "<group>"; };
+		628DE13B2F951072003C9F82 /* 200. Number of Islands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "200. Number of Islands.h"; sourceTree = "<group>"; };
+		628DE13C2F951072003C9F82 /* 206. Reverse Linked List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "206. Reverse Linked List.h"; sourceTree = "<group>"; };
+		628DE13D2F951072003C9F82 /* 207. Course Schedule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "207. Course Schedule.h"; sourceTree = "<group>"; };
+		628DE13E2F951072003C9F82 /* 208. Implement Trie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "208. Implement Trie.h"; sourceTree = "<group>"; };
+		628DE13F2F951072003C9F82 /* 215. Kth Largest Element in an Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "215. Kth Largest Element in an Array.h"; sourceTree = "<group>"; };
+		628DE1402F951072003C9F82 /* 221. Maximal Square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "221. Maximal Square.h"; sourceTree = "<group>"; };
+		628DE1412F951072003C9F82 /* 226. Invert Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "226. Invert Binary Tree.h"; sourceTree = "<group>"; };
+		628DE1422F951072003C9F82 /* 234. Palindrome Linked List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "234. Palindrome Linked List.h"; sourceTree = "<group>"; };
+		628DE1432F951072003C9F82 /* 236. Lowest Common Ancestor of a Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "236. Lowest Common Ancestor of a Binary Tree.h"; sourceTree = "<group>"; };
+		628DE1442F951072003C9F82 /* 238. Product of Array Except Self.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "238. Product of Array Except Self.h"; sourceTree = "<group>"; };
+		628DE1452F951072003C9F82 /* 239. Sliding Window Maximum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "239. Sliding Window Maximum.h"; sourceTree = "<group>"; };
+		628DE1462F951072003C9F82 /* 240. Search a 2D Matrix II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "240. Search a 2D Matrix II.h"; sourceTree = "<group>"; };
+		628DE1472F951072003C9F82 /* 253. Meeting Rooms II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "253. Meeting Rooms II.h"; sourceTree = "<group>"; };
+		628DE1482F951072003C9F82 /* 279. Perfect Squares.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "279. Perfect Squares.h"; sourceTree = "<group>"; };
+		628DE1492F951072003C9F82 /* 283. Move Zeroes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "283. Move Zeroes.h"; sourceTree = "<group>"; };
+		628DE14A2F951072003C9F82 /* 287. Find the Duplicate Number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "287. Find the Duplicate Number.h"; sourceTree = "<group>"; };
+		628DE14B2F951072003C9F82 /* 297. Serialize and Deserialize Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "297. Serialize and Deserialize Binary Tree.h"; sourceTree = "<group>"; };
+		628DE14C2F951072003C9F82 /* 300. Longest Increasing Subsequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "300. Longest Increasing Subsequence.h"; sourceTree = "<group>"; };
+		628DE14D2F951072003C9F82 /* 301. Remove Invalid Parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "301. Remove Invalid Parentheses.h"; sourceTree = "<group>"; };
+		628DE14E2F951072003C9F82 /* 309. Best Time to Buy and Sell Stock with Cooldown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "309. Best Time to Buy and Sell Stock with Cooldown.h"; sourceTree = "<group>"; };
+		628DE14F2F951072003C9F82 /* 312. Burst Balloons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "312. Burst Balloons.h"; sourceTree = "<group>"; };
+		628DE1502F951072003C9F82 /* 322. Coin Change.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "322. Coin Change.h"; sourceTree = "<group>"; };
+		628DE1512F951072003C9F82 /* 337. House Robber III.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "337. House Robber III.h"; sourceTree = "<group>"; };
+		628DE1522F951072003C9F82 /* 338. Counting Bits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "338. Counting Bits.h"; sourceTree = "<group>"; };
+		628DE1532F951072003C9F82 /* 347. Top K Frequent Elements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "347. Top K Frequent Elements.h"; sourceTree = "<group>"; };
+		628DE1542F951072003C9F82 /* 394. Decode String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "394. Decode String.h"; sourceTree = "<group>"; };
+		628DE1552F951072003C9F82 /* 399. Evaluate Division.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "399. Evaluate Division.h"; sourceTree = "<group>"; };
+		628DE1562F951072003C9F82 /* 406. Queue Reconstruction by Height.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "406. Queue Reconstruction by Height.h"; sourceTree = "<group>"; };
+		628DE1572F951072003C9F82 /* 416. Partition Equal Subset Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "416. Partition Equal Subset Sum.h"; sourceTree = "<group>"; };
+		628DE1582F951072003C9F82 /* 437. Path Sum III.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "437. Path Sum III.h"; sourceTree = "<group>"; };
+		628DE1592F951072003C9F82 /* 438. Find All Anagrams in a String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "438. Find All Anagrams in a String.h"; sourceTree = "<group>"; };
+		628DE15A2F951072003C9F82 /* 448. Find All Numbers Disappeared in an Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "448. Find All Numbers Disappeared in an Array.h"; sourceTree = "<group>"; };
+		628DE15B2F951072003C9F82 /* 461. Hamming Distance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "461. Hamming Distance.h"; sourceTree = "<group>"; };
+		628DE15C2F951072003C9F82 /* 494. Target Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "494. Target Sum.h"; sourceTree = "<group>"; };
+		628DE15D2F951072003C9F82 /* 538. Convert BST to Greater Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "538. Convert BST to Greater Tree.h"; sourceTree = "<group>"; };
+		628DE15E2F951072003C9F82 /* 543. Diameter of Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "543. Diameter of Binary Tree.h"; sourceTree = "<group>"; };
+		628DE15F2F951072003C9F82 /* 560. Subarray Sum Equals K.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "560. Subarray Sum Equals K.h"; sourceTree = "<group>"; };
+		628DE1602F951072003C9F82 /* 581. Shortest Unsorted Continuous Subarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "581. Shortest Unsorted Continuous Subarray.h"; sourceTree = "<group>"; };
+		628DE1612F951072003C9F82 /* 617. Merge Two Binary Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "617. Merge Two Binary Trees.h"; sourceTree = "<group>"; };
+		628DE1622F951072003C9F82 /* 621. Task Scheduler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "621. Task Scheduler.h"; sourceTree = "<group>"; };
+		628DE1632F951072003C9F82 /* 647. Palindromic Substrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "647. Palindromic Substrings.h"; sourceTree = "<group>"; };
+		628DE1642F951072003C9F82 /* 739. Daily Temperatures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "739. Daily Temperatures.h"; sourceTree = "<group>"; };
 		62DBEFE52F94C26200AA637C /* 1. twoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1. twoSum.h"; sourceTree = "<group>"; };
 		62DBEFE72F94C4D000AA637C /* 2. addTwoNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2. addTwoNumbers.h"; sourceTree = "<group>"; };
 		62DBEFE82F94C6FE00AA637C /* 3. lengthOfLongestSubstring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3. lengthOfLongestSubstring.h"; sourceTree = "<group>"; };
@@ -112,6 +184,8 @@
 				62DBEFE82F94C6FE00AA637C /* 3. lengthOfLongestSubstring.h */,
 				62DBEFE92F94C74100AA637C /* 4. findMedianSortedArrays.h */,
 				62DBEFEA2F94C82F00AA637C /* 5. longestPalindrome.h */,
+				628DE11D2F951039003C9F82 /* 6. Zigzag Conversion.h */,
+				628DE11E2F951039003C9F82 /* 7. Integer to Roman.h */,
 				62DBEFEC2F94CAC800AA637C /* 10. regularExpressionMatching.h */,
 				62DBEFED2F94CB3800AA637C /* 11. containerWithMostWater.h */,
 				62DBEFEE2F94CB8100AA637C /* 15. 3sum.h */,
@@ -138,6 +212,76 @@
 				62DBF0032F94D2A600AA637C /* 70. Climbing Stairs.h */,
 				62DBF0042F94D2CF00AA637C /* 72. Edit Distance.h */,
 				62DBF0052F94D31F00AA637C /* 75. Sort Colors.h */,
+				628DE11F2F951072003C9F82 /* 76. Minimum Window Substring.h */,
+				628DE1202F951072003C9F82 /* 78. Subsets.h */,
+				628DE1212F951072003C9F82 /* 79. Word Search.h */,
+				628DE1222F951072003C9F82 /* 84. Largest Rectangle in Histogram.h */,
+				628DE1232F951072003C9F82 /* 85. Maximal Rectangle.h */,
+				628DE1242F951072003C9F82 /* 94. Binary Tree Inorder Traversal.h */,
+				628DE1252F951072003C9F82 /* 96. Unique Binary Search Trees.h */,
+				628DE1262F951072003C9F82 /* 98. Validate Binary Search Tree.h */,
+				628DE1272F951072003C9F82 /* 101. Symmetric Tree.h */,
+				628DE1282F951072003C9F82 /* 102. Binary Tree Level Order Traversal.h */,
+				628DE1292F951072003C9F82 /* 104. Maximum Depth of Binary Tree.h */,
+				628DE12A2F951072003C9F82 /* 105. Construct Binary Tree from Preorder and Inorder Traversal.h */,
+				628DE12B2F951072003C9F82 /* 114. Flatten Binary Tree to Linked List.h */,
+				628DE12C2F951072003C9F82 /* 121. Best Time to Buy and Sell Stock.h */,
+				628DE12D2F951072003C9F82 /* 124. Binary Tree Maximum Path Sum.h */,
+				628DE12E2F951072003C9F82 /* 128. Longest Consecutive Sequence.h */,
+				628DE12F2F951072003C9F82 /* 136. Single Number.h */,
+				628DE1302F951072003C9F82 /* 138. copyRandomList.h */,
+				628DE1312F951072003C9F82 /* 139. Word Break.h */,
+				628DE1322F951072003C9F82 /* 141. Linked List Cycle.h */,
+				628DE1332F951072003C9F82 /* 142. Linked List Cycle II.h */,
+				628DE1342F951072003C9F82 /* 146. LRU Cache.h */,
+				628DE1352F951072003C9F82 /* 148. Sort List.h */,
+				628DE1362F951072003C9F82 /* 152. Maximum Product Subarray.h */,
+				628DE1372F951072003C9F82 /* 155. Min Stack.h */,
+				628DE1382F951072003C9F82 /* 160. Intersection of Two Linked Lists.h */,
+				628DE1392F951072003C9F82 /* 169. Majority Element.h */,
+				628DE13A2F951072003C9F82 /* 198. House Robber.h */,
+				628DE13B2F951072003C9F82 /* 200. Number of Islands.h */,
+				628DE13C2F951072003C9F82 /* 206. Reverse Linked List.h */,
+				628DE13D2F951072003C9F82 /* 207. Course Schedule.h */,
+				628DE13E2F951072003C9F82 /* 208. Implement Trie.h */,
+				628DE13F2F951072003C9F82 /* 215. Kth Largest Element in an Array.h */,
+				628DE1402F951072003C9F82 /* 221. Maximal Square.h */,
+				628DE1412F951072003C9F82 /* 226. Invert Binary Tree.h */,
+				628DE1422F951072003C9F82 /* 234. Palindrome Linked List.h */,
+				628DE1432F951072003C9F82 /* 236. Lowest Common Ancestor of a Binary Tree.h */,
+				628DE1442F951072003C9F82 /* 238. Product of Array Except Self.h */,
+				628DE1452F951072003C9F82 /* 239. Sliding Window Maximum.h */,
+				628DE1462F951072003C9F82 /* 240. Search a 2D Matrix II.h */,
+				628DE1472F951072003C9F82 /* 253. Meeting Rooms II.h */,
+				628DE1482F951072003C9F82 /* 279. Perfect Squares.h */,
+				628DE1492F951072003C9F82 /* 283. Move Zeroes.h */,
+				628DE14A2F951072003C9F82 /* 287. Find the Duplicate Number.h */,
+				628DE14B2F951072003C9F82 /* 297. Serialize and Deserialize Binary Tree.h */,
+				628DE14C2F951072003C9F82 /* 300. Longest Increasing Subsequence.h */,
+				628DE14D2F951072003C9F82 /* 301. Remove Invalid Parentheses.h */,
+				628DE14E2F951072003C9F82 /* 309. Best Time to Buy and Sell Stock with Cooldown.h */,
+				628DE14F2F951072003C9F82 /* 312. Burst Balloons.h */,
+				628DE1502F951072003C9F82 /* 322. Coin Change.h */,
+				628DE1512F951072003C9F82 /* 337. House Robber III.h */,
+				628DE1522F951072003C9F82 /* 338. Counting Bits.h */,
+				628DE1532F951072003C9F82 /* 347. Top K Frequent Elements.h */,
+				628DE1542F951072003C9F82 /* 394. Decode String.h */,
+				628DE1552F951072003C9F82 /* 399. Evaluate Division.h */,
+				628DE1562F951072003C9F82 /* 406. Queue Reconstruction by Height.h */,
+				628DE1572F951072003C9F82 /* 416. Partition Equal Subset Sum.h */,
+				628DE1582F951072003C9F82 /* 437. Path Sum III.h */,
+				628DE1592F951072003C9F82 /* 438. Find All Anagrams in a String.h */,
+				628DE15A2F951072003C9F82 /* 448. Find All Numbers Disappeared in an Array.h */,
+				628DE15B2F951072003C9F82 /* 461. Hamming Distance.h */,
+				628DE15C2F951072003C9F82 /* 494. Target Sum.h */,
+				628DE15D2F951072003C9F82 /* 538. Convert BST to Greater Tree.h */,
+				628DE15E2F951072003C9F82 /* 543. Diameter of Binary Tree.h */,
+				628DE15F2F951072003C9F82 /* 560. Subarray Sum Equals K.h */,
+				628DE1602F951072003C9F82 /* 581. Shortest Unsorted Continuous Subarray.h */,
+				628DE1612F951072003C9F82 /* 617. Merge Two Binary Trees.h */,
+				628DE1622F951072003C9F82 /* 621. Task Scheduler.h */,
+				628DE1632F951072003C9F82 /* 647. Palindromic Substrings.h */,
+				628DE1642F951072003C9F82 /* 739. Daily Temperatures.h */,
 			);
 			name = leetcode;
 			path = Solution;

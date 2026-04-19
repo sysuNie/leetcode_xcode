@@ -23,7 +23,14 @@ class Solution {
 
         for (int x = 0; x <= (m + n) / 2; x++) {
             l = r;
-            r = (i < m && (j >= n || nums1[i] < nums2[j])) ? nums1[i++] : nums2[j++];
+            if (i < m && (j >= n || nums1[i] < nums2[j]))
+            {
+                r = nums1[i++];
+            }
+            else
+            {
+                r = nums2[j++];
+            }
         }
 
         return (m + n) & 1 ? r : (l + r) / 2.0;

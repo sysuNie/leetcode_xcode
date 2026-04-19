@@ -18,7 +18,9 @@ struct ListNode {
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        ListNode *ptrPioneer = head, *ptrNth = head, *parent = NULL;
+        ListNode *ptrPioneer = head;
+        ListNode *ptrNth = head;
+        ListNode *parent = NULL;
         
         for(int i=0;i<n;i++){
             ptrPioneer = ptrPioneer->next;
