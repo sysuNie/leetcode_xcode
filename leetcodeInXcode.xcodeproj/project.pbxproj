@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2D42F1B19FEC6ED0098F93B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2D42F1A19FEC6ED0098F93B /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2D42F1519FEC6ED0098F93B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		628DE11C2F94D664003C9F82 /* 138. copyRandomList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "138. copyRandomList.h"; sourceTree = "<group>"; };
+		62DBEFE52F94C26200AA637C /* 1. twoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1. twoSum.h"; sourceTree = "<group>"; };
+		62DBEFE72F94C4D000AA637C /* 2. addTwoNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2. addTwoNumbers.h"; sourceTree = "<group>"; };
+		62DBEFE82F94C6FE00AA637C /* 3. lengthOfLongestSubstring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3. lengthOfLongestSubstring.h"; sourceTree = "<group>"; };
+		62DBEFE92F94C74100AA637C /* 4. findMedianSortedArrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "4. findMedianSortedArrays.h"; sourceTree = "<group>"; };
+		62DBEFEA2F94C82F00AA637C /* 5. longestPalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5. longestPalindrome.h"; sourceTree = "<group>"; };
+		62DBEFEC2F94CAC800AA637C /* 10. regularExpressionMatching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "10. regularExpressionMatching.h"; sourceTree = "<group>"; };
+		62DBEFED2F94CB3800AA637C /* 11. containerWithMostWater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "11. containerWithMostWater.h"; sourceTree = "<group>"; };
+		62DBEFEE2F94CB8100AA637C /* 15. 3sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "15. 3sum.h"; sourceTree = "<group>"; };
+		62DBEFEF2F94CBD400AA637C /* 17. letterCombination.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "17. letterCombination.h"; sourceTree = "<group>"; };
+		62DBEFF02F94CC6800AA637C /* 19. removeFromLInkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "19. removeFromLInkedList.h"; sourceTree = "<group>"; };
+		62DBEFF12F94CD0200AA637C /* 20. Valid Parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "20. Valid Parentheses.h"; sourceTree = "<group>"; };
+		62DBEFF22F94CD7800AA637C /* 21. Merge Two Sorted Lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "21. Merge Two Sorted Lists.h"; sourceTree = "<group>"; };
+		62DBEFF32F94CDA900AA637C /* 22. Generate Parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "22. Generate Parentheses.h"; sourceTree = "<group>"; };
+		62DBEFF42F94CDF800AA637C /* 23. Merge k Sorted Lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "23. Merge k Sorted Lists.h"; sourceTree = "<group>"; };
+		62DBEFF52F94CE7C00AA637C /* 31. Next Permutation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "31. Next Permutation.h"; sourceTree = "<group>"; };
+		62DBEFF62F94CF2A00AA637C /* 32. Longest Valid Parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "32. Longest Valid Parentheses.h"; sourceTree = "<group>"; };
+		62DBEFF72F94CFA700AA637C /* 33. Search in Rotated Sorted Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "33. Search in Rotated Sorted Array.h"; sourceTree = "<group>"; };
+		62DBEFF82F94D02000AA637C /* 34. Find First and Last Position of Element in Sorted Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "34. Find First and Last Position of Element in Sorted Array.h"; sourceTree = "<group>"; };
+		62DBEFF92F94D0C200AA637C /* 39. Combination Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "39. Combination Sum.h"; sourceTree = "<group>"; };
+		62DBEFFA2F94D0F600AA637C /* 42. Trapping Rain Water.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "42. Trapping Rain Water.h"; sourceTree = "<group>"; };
+		62DBEFFB2F94D11E00AA637C /* 46. Permutations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "46. Permutations.h"; sourceTree = "<group>"; };
+		62DBEFFC2F94D14700AA637C /* 48. Rotate Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "48. Rotate Image.h"; sourceTree = "<group>"; };
+		62DBEFFD2F94D18D00AA637C /* 49. Group Anagrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "49. Group Anagrams.h"; sourceTree = "<group>"; };
+		62DBEFFE2F94D1CD00AA637C /* 53. Maximum Subarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "53. Maximum Subarray.h"; sourceTree = "<group>"; };
+		62DBEFFF2F94D1EB00AA637C /* 55. Jump Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "55. Jump Game.h"; sourceTree = "<group>"; };
+		62DBF0002F94D21500AA637C /* 56. Merge Intervals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "56. Merge Intervals.h"; sourceTree = "<group>"; };
+		62DBF0012F94D24200AA637C /* 62. Unique Paths.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "62. Unique Paths.h"; sourceTree = "<group>"; };
+		62DBF0022F94D26B00AA637C /* 64. Minimum Path Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "64. Minimum Path Sum.h"; sourceTree = "<group>"; };
+		62DBF0032F94D2A600AA637C /* 70. Climbing Stairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "70. Climbing Stairs.h"; sourceTree = "<group>"; };
+		62DBF0042F94D2CF00AA637C /* 72. Edit Distance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "72. Edit Distance.h"; sourceTree = "<group>"; };
+		62DBF0052F94D31F00AA637C /* 75. Sort Colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "75. Sort Colors.h"; sourceTree = "<group>"; };
+		A21D7E721B14F227006CCB2A /* tenary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tenary.h; path = Solution/tenary.h; sourceTree = "<group>"; };
+		A22066811A01F29D00ED6341 /* Algorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
+		A22066821A01F29D00ED6341 /* Container.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Container.h; sourceTree = "<group>"; };
+		A22066831A01F29D00ED6341 /* InputOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputOutput.h; sourceTree = "<group>"; };
+		A22066841A01F29D00ED6341 /* Numerics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Numerics.h; sourceTree = "<group>"; };
+		A232651D1A01D99E007F6C77 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		A2D42F1719FEC6ED0098F93B /* leetcodeInXcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcodeInXcode; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D42F1A19FEC6ED0098F93B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D42F1419FEC6ED0098F93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A21A79D41B1A4C4100BDD366 /* lintcode */ = {
+			isa = PBXGroup;
+			children = (
+				628DE11C2F94D664003C9F82 /* 138. copyRandomList.h */,
+			);
+			name = lintcode;
+			path = Solution;
+			sourceTree = "<group>";
+		};
+		A21A79D51B1A4C5600BDD366 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				A21D7E721B14F227006CCB2A /* tenary.h */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		A22066801A01F29D00ED6341 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				A22066811A01F29D00ED6341 /* Algorithm.h */,
+				A22066821A01F29D00ED6341 /* Container.h */,
+				A22066831A01F29D00ED6341 /* InputOutput.h */,
+				A22066841A01F29D00ED6341 /* Numerics.h */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+		A22066881A01F2C900ED6341 /* leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				62DBEFE52F94C26200AA637C /* 1. twoSum.h */,
+				62DBEFE72F94C4D000AA637C /* 2. addTwoNumbers.h */,
+				62DBEFE82F94C6FE00AA637C /* 3. lengthOfLongestSubstring.h */,
+				62DBEFE92F94C74100AA637C /* 4. findMedianSortedArrays.h */,
+				62DBEFEA2F94C82F00AA637C /* 5. longestPalindrome.h */,
+				62DBEFEC2F94CAC800AA637C /* 10. regularExpressionMatching.h */,
+				62DBEFED2F94CB3800AA637C /* 11. containerWithMostWater.h */,
+				62DBEFEE2F94CB8100AA637C /* 15. 3sum.h */,
+				62DBEFEF2F94CBD400AA637C /* 17. letterCombination.h */,
+				62DBEFF02F94CC6800AA637C /* 19. removeFromLInkedList.h */,
+				62DBEFF12F94CD0200AA637C /* 20. Valid Parentheses.h */,
+				62DBEFF22F94CD7800AA637C /* 21. Merge Two Sorted Lists.h */,
+				62DBEFF32F94CDA900AA637C /* 22. Generate Parentheses.h */,
+				62DBEFF42F94CDF800AA637C /* 23. Merge k Sorted Lists.h */,
+				62DBEFF52F94CE7C00AA637C /* 31. Next Permutation.h */,
+				62DBEFF62F94CF2A00AA637C /* 32. Longest Valid Parentheses.h */,
+				62DBEFF72F94CFA700AA637C /* 33. Search in Rotated Sorted Array.h */,
+				62DBEFF82F94D02000AA637C /* 34. Find First and Last Position of Element in Sorted Array.h */,
+				62DBEFF92F94D0C200AA637C /* 39. Combination Sum.h */,
+				62DBEFFA2F94D0F600AA637C /* 42. Trapping Rain Water.h */,
+				62DBEFFB2F94D11E00AA637C /* 46. Permutations.h */,
+				62DBEFFC2F94D14700AA637C /* 48. Rotate Image.h */,
+				62DBEFFD2F94D18D00AA637C /* 49. Group Anagrams.h */,
+				62DBEFFE2F94D1CD00AA637C /* 53. Maximum Subarray.h */,
+				62DBEFFF2F94D1EB00AA637C /* 55. Jump Game.h */,
+				62DBF0002F94D21500AA637C /* 56. Merge Intervals.h */,
+				62DBF0012F94D24200AA637C /* 62. Unique Paths.h */,
+				62DBF0022F94D26B00AA637C /* 64. Minimum Path Sum.h */,
+				62DBF0032F94D2A600AA637C /* 70. Climbing Stairs.h */,
+				62DBF0042F94D2CF00AA637C /* 72. Edit Distance.h */,
+				62DBF0052F94D31F00AA637C /* 75. Sort Colors.h */,
+			);
+			name = leetcode;
+			path = Solution;
+			sourceTree = "<group>";
+		};
+		A2D42F0E19FEC6ED0098F93B = {
+			isa = PBXGroup;
+			children = (
+				A2D42F1919FEC6ED0098F93B /* leetcodeInXcode */,
+				A2D42F1819FEC6ED0098F93B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D42F1819FEC6ED0098F93B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D42F1719FEC6ED0098F93B /* leetcodeInXcode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D42F1919FEC6ED0098F93B /* leetcodeInXcode */ = {
+			isa = PBXGroup;
+			children = (
+				A2D42F1A19FEC6ED0098F93B /* main.cpp */,
+				A232651D1A01D99E007F6C77 /* Prefix.pch */,
+				A21A79D51B1A4C5600BDD366 /* other */,
+				A21A79D41B1A4C4100BDD366 /* lintcode */,
+				A22066881A01F2C900ED6341 /* leetcode */,
+				A22066801A01F29D00ED6341 /* header */,
+			);
+			path = leetcodeInXcode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D42F1619FEC6ED0098F93B /* leetcodeInXcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D42F1E19FEC6ED0098F93B /* Build configuration list for PBXNativeTarget "leetcodeInXcode" */;
+			buildPhases = (
+				A2D42F1319FEC6ED0098F93B /* Sources */,
+				A2D42F1419FEC6ED0098F93B /* Frameworks */,
+				A2D42F1519FEC6ED0098F93B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcodeInXcode;
+			productName = leetcodeInXcode;
+			productReference = A2D42F1719FEC6ED0098F93B /* leetcodeInXcode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D42F0F19FEC6ED0098F93B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = edu.self;
+				TargetAttributes = {
+					A2D42F1619FEC6ED0098F93B = {
+						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 2610;
+					};
+				};
+			};
+			buildConfigurationList = A2D42F1219FEC6ED0098F93B /* Build configuration list for PBXProject "leetcodeInXcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = A2D42F0E19FEC6ED0098F93B;
+			productRefGroup = A2D42F1819FEC6ED0098F93B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D42F1619FEC6ED0098F93B /* leetcodeInXcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D42F1319FEC6ED0098F93B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D42F1B19FEC6ED0098F93B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A2D42F1C19FEC6ED0098F93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A2D42F1D19FEC6ED0098F93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A2D42F1F19FEC6ED0098F93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = leetcodeInXcode/Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					leetcodeInXcode/Solution/,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "leetcodeInXcode/Solution/leetcodeInXcode-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A2D42F2019FEC6ED0098F93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = leetcodeInXcode/Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					leetcodeInXcode/Solution/,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "leetcodeInXcode/Solution/leetcodeInXcode-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D42F1219FEC6ED0098F93B /* Build configuration list for PBXProject "leetcodeInXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D42F1C19FEC6ED0098F93B /* Debug */,
+				A2D42F1D19FEC6ED0098F93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D42F1E19FEC6ED0098F93B /* Build configuration list for PBXNativeTarget "leetcodeInXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D42F1F19FEC6ED0098F93B /* Debug */,
+				A2D42F2019FEC6ED0098F93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D42F0F19FEC6ED0098F93B /* Project object */;
+}
