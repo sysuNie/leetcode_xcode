@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,7 +23,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		628DE11C2F94D664003C9F82 /* 138. copyRandomList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "138. copyRandomList.h"; sourceTree = "<group>"; };
 		628DE11D2F951039003C9F82 /* 6. Zigzag Conversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "6. Zigzag Conversion.h"; sourceTree = "<group>"; };
 		628DE11E2F951039003C9F82 /* 7. Integer to Roman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "7. Integer to Roman.h"; sourceTree = "<group>"; };
 		628DE11F2F951072003C9F82 /* 76. Minimum Window Substring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "76. Minimum Window Substring.h"; sourceTree = "<group>"; };
@@ -137,6 +136,10 @@
 		A2D42F1A19FEC6ED0098F93B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		624280ED2F95D5430056E7BE /* JD */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = JD; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		A2D42F1419FEC6ED0098F93B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -151,7 +154,7 @@
 		A21A79D41B1A4C4100BDD366 /* lintcode */ = {
 			isa = PBXGroup;
 			children = (
-				628DE11C2F94D664003C9F82 /* 138. copyRandomList.h */,
+				624280ED2F95D5430056E7BE /* JD */,
 			);
 			name = lintcode;
 			path = Solution;
@@ -330,6 +333,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				624280ED2F95D5430056E7BE /* JD */,
 			);
 			name = leetcodeInXcode;
 			productName = leetcodeInXcode;
