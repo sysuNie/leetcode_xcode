@@ -19,19 +19,25 @@ struct ListNode {
 
 class Solution {
 public:
+    // 思路：模拟逐位相加。遍历两个链表，对应节点值与进位相加，生成新节点
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        // 哑节点，简化头节点处理
         ListNode *head = new ListNode(0);
         ListNode *cur = head;
+        // 进位
         int carry = 0;
         
         while (l1 || l2 || carry) {
             if (l1 != NULL) {
+                // 累加l1当前位
                 carry += l1->val;
             }
             if (l2 != NULL) {
+                // 累加l2当前位
                 carry += l2->val;
             }
             
+            // 当前位的结果
             ListNode *temp = new ListNode(carry % 10);
             cur->next = temp;
             cur = cur->next;
@@ -43,6 +49,7 @@ public:
                 l2 = l2->next;
             }
             
+            // 更新进位
             carry /= 10;
         }
         

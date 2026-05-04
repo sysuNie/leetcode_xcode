@@ -20,21 +20,28 @@ struct TreeNode {
 
 class Solution {
 public:
+    // 思路：递归后序遍历，计算每个节点的最大贡献值，同时更新全局最大路径和。
     int maxPathSum(TreeNode* root) {
         int maxSum = INT_MIN;
         maxGain(root, maxSum);
         return maxSum;
     }
 
+    // 返回以当前节点为端点的最大路径贡献值（只能选一侧子树）
     int maxGain(TreeNode* node, int& maxSum) {
         if (node == nullptr) return 0;
 
+        // 左子树贡献值，负值则取0（不选）
         int leftGain = max(maxGain(node->left, maxSum), 0);
+        // 右子树贡献值，负值则取0（不选）
         int rightGain = max(maxGain(node->right, maxSum), 0);
 
+        // 以当前节点为拐点的路径和（左+根+右）
         int pathSum = node->val + leftGain + rightGain;
+        // 更新全局最大路径和
         maxSum = max(maxSum, pathSum);
 
+        // 返回以当前节点为端点的最大贡献值（只能走一侧）
         return node->val + max(leftGain, rightGain);
     }
 

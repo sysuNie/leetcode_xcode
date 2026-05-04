@@ -28,6 +28,8 @@ public:
         
         
     }
+    // 思路：回溯法，通过交换将每个数字依次放到当前位置，递归处理后续位置，
+    // 当first到达末尾时记录一种全排列。
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> res;
         backtrack(res, nums, 0, nums.size());

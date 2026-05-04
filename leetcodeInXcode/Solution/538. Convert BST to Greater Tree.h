@@ -19,18 +19,24 @@ struct TreeNode {
 
 class Solution {
 public:
+    // 思路：反向中序遍历（右-根-左）。维护一个累加和 sum，先遍历右子树再处理当前节点，确保每个节点的值加上所有大于它的节点值。
     TreeNode* convertBST(TreeNode* root) {
         int sum = 0;
         convertHelper(root, sum);
         return root;
     }
 
+    // 反向中序遍历：右子树 -> 当前节点 -> 左子树
     void convertHelper(TreeNode* node, int& sum) {
         if (!node) return;
 
+        // 先遍历右子树（值更大的节点）
         convertHelper(node->right, sum);
+        // 累加当前节点的原始值
         sum += node->val;
+        // 当前节点更新为累加和
         node->val = sum;
+        // 再遍历左子树（值更小的节点）
         convertHelper(node->left, sum);
     }
 

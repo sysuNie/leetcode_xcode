@@ -17,23 +17,29 @@ struct ListNode {
 
 class Solution {
 public:
+    // 思路：递归合并。每次比较两个链表头节点，较小者作为当前节点，
+    // 并将其next指向剩余链表的合并结果，直到其中一个链表为空。
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
         if (list1 == nullptr)
         {
+            // list1为空，直接返回list2
             return list2;
         }
 
         if (list2 == nullptr)
         {
+            // list2为空，直接返回list1
             return list1;
         }
         
         if (list1->val < list2->val)
         {
+            // list1头节点较小，递归合并后续
             list1->next = mergeTwoLists(list1->next, list2);
             return list1;
         } else
         {
+            // list2头节点较小，递归合并后续
             list2->next = mergeTwoLists(list1, list2->next);
             return list2;
         }

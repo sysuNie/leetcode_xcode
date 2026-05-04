@@ -20,6 +20,7 @@ struct TreeNode {
 
 class Solution {
 public:
+    // 思路：BFS层序遍历，利用队列逐层处理节点，每轮记录当前层的节点数量。
     vector<vector<int>> levelOrder(TreeNode* root) {
         vector<vector<int>> result;
         if (root == nullptr) return result;
@@ -28,6 +29,7 @@ public:
         q.push(root);
 
         while (!q.empty()) {
+            // 当前层的节点数
             int levelSize = q.size();
             vector<int> level;
 
@@ -36,10 +38,13 @@ public:
                 q.pop();
                 level.push_back(node->val);
 
+                // 左子节点入队
                 if (node->left) q.push(node->left);
+                // 右子节点入队
                 if (node->right) q.push(node->right);
             }
 
+            // 将当前层结果加入答案
             result.push_back(level);
         }
 

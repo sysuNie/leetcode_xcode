@@ -20,14 +20,19 @@ struct TreeNode {
 
 class Solution {
 public:
+    // 思路：递归。先交换当前节点的左右子树，再递归翻转左右子树。
     TreeNode* invertTree(TreeNode* root) {
+        // 递归终止条件
         if (root == nullptr) return nullptr;
 
+        // 交换左右子树
         TreeNode* temp = root->left;
         root->left = root->right;
         root->right = temp;
 
+        // 递归翻转左子树
         invertTree(root->left);
+        // 递归翻转右子树
         invertTree(root->right);
 
         return root;

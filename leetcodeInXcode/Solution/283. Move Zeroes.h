@@ -11,14 +11,18 @@
 
 class Solution {
 public:
+    // 思路：双指针法。用 idx 指向当前非零元素应放置的位置，遍历数组将所有非零元素前移，最后将 idx 之后的所有位置补零。
     void moveZeroes(vector<int>& nums) {
+        // 指向下一个非零元素应存放的位置
         int idx = 0;
         for (int num : nums) {
             if (num != 0) {
+                // 将非零元素放到 idx 位置，然后 idx 后移
                 nums[idx++] = num;
             }
         }
         while (idx < nums.size()) {
+            // 将剩余位置全部填零
             nums[idx++] = 0;
         }
     }

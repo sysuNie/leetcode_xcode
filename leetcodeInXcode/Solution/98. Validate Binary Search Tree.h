@@ -20,17 +20,23 @@ struct TreeNode {
 
 class Solution {
 public:
+    // 思路：递归验证BST，每个节点必须在其上下界范围内，左子树更新上界，右子树更新下界。
     bool isValidBST(TreeNode* root) {
         return validate(root, nullptr, nullptr);
     }
 
+    // minNode/maxNode 分别记录当前节点允许的最小/最大值边界
     bool validate(TreeNode* node, TreeNode* minNode, TreeNode* maxNode) {
         if (node == nullptr) return true;
 
+        // 违反下界约束
         if (minNode != nullptr && node->val <= minNode->val) return false;
+        // 违反上界约束
         if (maxNode != nullptr && node->val >= maxNode->val) return false;
 
+        // 左子树的上界变为当前节点值
         return validate(node->left, minNode, node) &&
+               // 右子树的下界变为当前节点值
                validate(node->right, node, maxNode);
     }
 

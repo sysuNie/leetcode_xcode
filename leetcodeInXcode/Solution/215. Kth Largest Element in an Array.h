@@ -11,13 +11,17 @@
 
 class Solution {
 public:
+    // 思路：使用大顶堆（优先队列），将数组全部入堆后弹出k-1个元素，堆顶即为第k大。
     int findKthLargest(vector<int>& nums, int k) {
+        // 默认大顶堆
         priority_queue<int> pq(nums.begin(), nums.end());
 
         for (int i = 0; i < k - 1; i++) {
+            // 弹出前k-1个最大元素
             pq.pop();
         }
 
+        // 当前堆顶即为第k大
         return pq.top();
     }
 

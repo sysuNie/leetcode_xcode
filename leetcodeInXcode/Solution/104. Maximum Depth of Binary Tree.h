@@ -20,6 +20,7 @@ struct TreeNode {
 
 class Solution {
 public:
+    // 思路：BFS层序遍历，每遍历一层深度加1，最后得到最大深度。
     int maxDepth(TreeNode* root) {
         if (root == nullptr) return 0;
 
@@ -28,14 +29,18 @@ public:
         int depth = 0;
 
         while (!q.empty()) {
+            // 每处理一层，深度加1
             depth++;
+            // 当前层节点数
             int levelSize = q.size();
 
             for (int i = 0; i < levelSize; i++) {
                 TreeNode* node = q.front();
                 q.pop();
 
+                // 左子节点入队
                 if (node->left) q.push(node->left);
+                // 右子节点入队
                 if (node->right) q.push(node->right);
             }
         }

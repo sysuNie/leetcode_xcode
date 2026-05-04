@@ -17,27 +17,35 @@ struct ListNode {
 
 class Solution {
 public:
+    // 思路：快慢指针。第一阶段判断是否有环并找到相遇点；第二阶段将慢指针重置到头部，两指针同速前进，再次相遇点即为环入口。
     ListNode* detectCycle(ListNode* head) {
         if (head == nullptr || head->next == nullptr) return nullptr;
 
         ListNode* slow = head;
         ListNode* fast = head;
 
+        // 第一阶段：快慢指针找相遇点
         while (fast != nullptr && fast->next != nullptr) {
+            // 慢指针一步
             slow = slow->next;
+            // 快指针两步
             fast = fast->next->next;
 
+            // 相遇则退出
             if (slow == fast) break;
         }
 
+        // 未相遇说明无环
         if (fast == nullptr || fast->next == nullptr) return nullptr;
 
+        // 第二阶段：慢指针回到头，快慢同速前进，再次相遇点即为环入口
         slow = head;
         while (slow != fast) {
             slow = slow->next;
             fast = fast->next;
         }
 
+        // 返回环的入口节点
         return slow;
     }
 

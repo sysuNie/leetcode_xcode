@@ -28,35 +28,45 @@ public:
         root = new Node();
     }
 
+    // 思路：从根节点逐字符遍历，路径不存在则创建新节点，结尾标记isEnd。
     void insert(string word) {
         Node* node = root;
         for (char c : word) {
+            // 计算字符索引（0-25）
             int idx = c - 'a';
             if (!node->children[idx]) {
+                // 路径不存在则创建
                 node->children[idx] = new Node();
             }
+            // 移动到子节点
             node = node->children[idx];
         }
+        // 标记单词结尾
         node->isEnd = true;
     }
 
+    // 思路：逐字符匹配，若某字符无对应子节点则单词不存在，最后检查isEnd。
     bool search(string word) {
         Node* node = root;
         for (char c : word) {
             int idx = c - 'a';
             if (!node->children[idx]) {
+                // 路径断裂，单词不存在
                 return false;
             }
             node = node->children[idx];
         }
+        // 必须匹配到完整单词结尾
         return node->isEnd;
     }
 
+    // 思路：与search类似，但只需前缀匹配，不需要检查isEnd。
     bool startsWith(string prefix) {
         Node* node = root;
         for (char c : prefix) {
             int idx = c - 'a';
             if (!node->children[idx]) {
+                // 前缀路径不存在
                 return false;
             }
             node = node->children[idx];

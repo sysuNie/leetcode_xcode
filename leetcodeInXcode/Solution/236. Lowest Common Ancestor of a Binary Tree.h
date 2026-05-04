@@ -20,13 +20,20 @@ struct TreeNode {
 
 class Solution {
 public:
+    // 思路：递归。若当前节点为空或是p/q之一，直接返回。递归搜索左右子树：
+    // 若左右子树各找到一个目标节点，则当前节点为最近公共祖先；否则返回非空的一侧。
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        // 终止条件或找到目标
         if (!root || root == p || root == q) return root;
 
+        // 左子树搜索
         TreeNode* left = lowestCommonAncestor(root->left, p, q);
+        // 右子树搜索
         TreeNode* right = lowestCommonAncestor(root->right, p, q);
 
+        // 左右各找到一个，当前为LCA
         if (left && right) return root;
+        // 返回非空的一侧（可能包含两个目标）
         return left ? left : right;
     }
 

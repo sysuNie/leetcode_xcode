@@ -11,6 +11,8 @@
 
 class Solution {
 public:
+    // 思路：利用矩阵行递增、列递增的特性。从右上角开始：
+    // 若当前值大于target则左移（减小），小于target则下移（增大）。
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         if (matrix.empty() || matrix[0].empty()) return false;
 
@@ -18,18 +20,23 @@ public:
         int cols = matrix[0].size();
 
         int row = 0;
+        // 从右上角开始
         int col = cols - 1;
 
         while (row < rows && col >= 0) {
             if (matrix[row][col] == target) {
+                // 找到目标
                 return true;
             } else if (matrix[row][col] > target) {
+                // 当前值太大，向左移动
                 col--;
             } else {
+                // 当前值太小，向下移动
                 row++;
             }
         }
 
+        // 越界未找到
         return false;
     }
 

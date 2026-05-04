@@ -20,20 +20,26 @@ struct TreeNode {
 
 class Solution {
 public:
+    // 思路：Morris遍历思想。对于每个有左子树的节点，找到左子树的最右节点，将其右指针接到当前节点的右子树，然后将左子树移到右边。
     void flatten(TreeNode* root) {
         if (root == nullptr) return;
 
         TreeNode* curr = root;
         while (curr) {
             if (curr->left) {
+                // 找到左子树的最右节点（当前节点在中序遍历中的前驱）
                 TreeNode* predecessor = curr->left;
                 while (predecessor->right) {
                     predecessor = predecessor->right;
                 }
+                // 将原右子树接到最右节点下方
                 predecessor->right = curr->right;
+                // 左子树移到右边
                 curr->right = curr->left;
+                // 清空左指针
                 curr->left = nullptr;
             }
+            // 继续处理下一个节点
             curr = curr->right;
         }
     }

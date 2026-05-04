@@ -11,14 +11,19 @@
 
 class Solution {
 public:
+    // 思路：一次遍历，维护截至当前的最小价格和最大利润。每天的价格与最小价格作差更新利润，同时更新最小价格。
     int maxProfit(vector<int>& prices) {
         if (prices.empty()) return 0;
 
+        // 记录历史最低价格
         int minPrice = prices[0];
+        // 记录最大利润
         int maxProfit = 0;
 
         for (int i = 1; i < prices.size(); i++) {
+            // 计算当天卖出的利润并更新最大利润
             maxProfit = max(maxProfit, prices[i] - minPrice);
+            // 更新历史最低价格
             minPrice = min(minPrice, prices[i]);
         }
 

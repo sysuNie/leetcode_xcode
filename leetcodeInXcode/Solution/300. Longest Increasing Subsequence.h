@@ -11,16 +11,21 @@
 
 class Solution {
 public:
+    // 思路：动态规划。dp[i] 表示以 nums[i] 结尾的最长递增子序列长度。遍历每个元素，检查前面所有比它小的元素，取最大长度加 1。
     int lengthOfLIS(vector<int>& nums) {
+        // dp[i] 初始化为 1，每个元素自身构成长度为 1 的子序列
         vector<int> dp(nums.size(), 1);
         int result = 0;
 
         for (int i = 0; i < nums.size(); i++) {
+            // 枚举 i 之前的所有元素
             for (int j = 0; j < i; j++) {
                 if (nums[j] < nums[i]) {
+                    // 状态转移：如果 nums[j] < nums[i]，可以接在后面
                     dp[i] = max(dp[i], dp[j] + 1);
                 }
             }
+            // 更新全局最大值
             result = max(result, dp[i]);
         }
 

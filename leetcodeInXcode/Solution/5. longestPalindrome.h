@@ -11,24 +11,31 @@
 
 class Solution {
   public:
+    // 思路：中心扩展法。遍历每个字符作为回文中心，分别考虑奇数长度和偶数长度两种情况
     string longestPalindrome(string s) {
         int len = s.size();
         if (len == 0 || len == 1)
             return s;
-        int start = 0; // 记录回文子串起始位置
-        int end = 0;   // 记录回文子串终止位置
-        int mlen = 0;  // 记录最大回文子串的长度
+        // 最长回文子串起始位置
+        int start = 0;
+        // 最长回文子串终止位置
+        int end = 0;
+        // 最长回文子串的长度
+        int mlen = 0;
         for (int i = 0; i < len; i++) {
-            int len1 = expendaroundcenter(s, i, i);     // 一个元素为中心
-            int len2 = expendaroundcenter(s, i, i + 1); // 两个元素为中心
+            // 以单个字符为中心（奇数长度）
+            int len1 = expendaroundcenter(s, i, i);
+            // 以两个字符为中心（偶数长度）
+            int len2 = expendaroundcenter(s, i, i + 1);
             mlen = max(max(len1, len2), mlen);
+            // 找到更长的回文串，更新起止位置
             if (mlen > end - start + 1) {
                 start = i - (mlen - 1) / 2;
                 end = i + mlen / 2;
             }
         }
+        // 截取最长回文子串
         return s.substr(start, mlen);
-        // 该函数的意思是获取从start开始长度为mlen长度的字符串
     }
 
     void Test() {

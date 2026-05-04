@@ -17,19 +17,26 @@ struct ListNode {
 
 class Solution {
 public:
+    // 思路：快慢指针。快指针每次走两步，慢指针每次走一步，若存在环则两者必相遇。
     bool hasCycle(ListNode* head) {
         if (head == nullptr || head->next == nullptr) return false;
 
+        // 慢指针，每次一步
         ListNode* slow = head;
+        // 快指针，每次两步
         ListNode* fast = head;
 
         while (fast != nullptr && fast->next != nullptr) {
+            // 慢指针前进一步
             slow = slow->next;
+            // 快指针前进两步
             fast = fast->next->next;
 
+            // 相遇说明有环
             if (slow == fast) return true;
         }
 
+        // 快指针到达末尾，无环
         return false;
     }
 

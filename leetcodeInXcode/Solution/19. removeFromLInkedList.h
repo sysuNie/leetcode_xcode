@@ -17,23 +17,32 @@ struct ListNode {
 
 class Solution {
 public:
+    // 思路：快慢指针。先驱指针先走n步，然后两指针同步后移，
+    // 当先驱指针到达末尾时，慢指针正好指向倒数第n个节点，将其删除。
     ListNode* removeNthFromEnd(ListNode* head, int n) {
+        // 先驱指针
         ListNode *ptrPioneer = head;
+        // 慢指针，最终将指向待删节点
         ListNode *ptrNth = head;
+        // 慢指针的前一个节点，用于删除操作
         ListNode *parent = NULL;
         
         for(int i=0;i<n;i++){
+            // 先驱指针先走n步
             ptrPioneer = ptrPioneer->next;
         }
+        // 同步移动，直到先驱指针到达链表末尾
         while(ptrPioneer!=NULL){
             ptrPioneer = ptrPioneer->next;
             parent = ptrNth;
             ptrNth = ptrNth->next;
         }
+        // 说明要删除的是头节点
         if(parent == NULL){
             head = ptrNth->next;
         }
         else{
+            // 跳过待删节点
             parent->next = ptrNth->next;
         }
         

@@ -20,6 +20,7 @@ struct TreeNode {
 
 class Solution {
 public:
+    // 思路：递归构建。前序首元素为根，在中序中找到根的位置划分左右子树，递归构建左右子树。
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         return build(preorder, 0, preorder.size() - 1,
                      inorder, 0, inorder.size() - 1);
@@ -29,9 +30,11 @@ public:
                     vector<int>& inorder, int inStart, int inEnd) {
         if (preStart > preEnd) return nullptr;
 
+        // 前序第一个值为当前根节点
         int rootVal = preorder[preStart];
         int rootIndex = 0;
 
+        // 在中序遍历中找到根节点的位置，划分左右子树
         for (int i = inStart; i <= inEnd; i++) {
             if (inorder[i] == rootVal) {
                 rootIndex = i;
@@ -39,12 +42,17 @@ public:
             }
         }
 
+        // 左子树的节点个数
         int leftSize = rootIndex - inStart;
 
         TreeNode* root = new TreeNode(rootVal);
+        // 前序中左子树区间
         root->left = build(preorder, preStart + 1, preStart + leftSize,
+                           // 中序中左子树区间
                            inorder, inStart, rootIndex - 1);
+        // 前序中右子树区间
         root->right = build(preorder, preStart + leftSize + 1, preEnd,
+                            // 中序中右子树区间
                             inorder, rootIndex + 1, inEnd);
 
         return root;

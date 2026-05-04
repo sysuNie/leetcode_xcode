@@ -11,14 +11,17 @@
 
 class Solution {
 public:
+    // 思路：先沿反对角线翻转矩阵，再上下翻转，即可实现顺时针旋转90度。
     void rotate(vector<vector<int>>& matrix) {
         for(int i = 0; i < matrix.size(); ++i) {
             for(int j = 0; j < matrix[i].size() - i; ++j) {
+                // 沿反对角线交换
                 swap(matrix[i][j], matrix[matrix[i].size() - 1 - j][matrix.size() - 1 - i]);
             }
         }
         for(int i = 0; i < matrix.size() / 2; ++i) {
             for(int j = 0; j < matrix[i].size(); ++j) {
+                // 上下翻转
                 swap(matrix[i][j], matrix[matrix.size() - 1 - i][j]);
             }
         }

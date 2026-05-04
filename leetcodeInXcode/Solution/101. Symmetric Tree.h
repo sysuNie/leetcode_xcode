@@ -20,17 +20,21 @@ struct TreeNode {
 
 class Solution {
 public:
+    // 思路：递归判断二叉树是否对称，即左子树和右子树互为镜像。
     bool isSymmetric(TreeNode* root) {
         if (root == nullptr) return true;
         return isMirror(root->left, root->right);
     }
 
+    // 判断两棵树是否互为镜像：根值相等，且一棵的左子树与另一棵的右子树镜像
     bool isMirror(TreeNode* left, TreeNode* right) {
         if (left == nullptr && right == nullptr) return true;
         if (left == nullptr || right == nullptr) return false;
 
         return (left->val == right->val) &&
+               // 外侧子树对比
                isMirror(left->left, right->right) &&
+               // 内侧子树对比
                isMirror(left->right, right->left);
     }
 

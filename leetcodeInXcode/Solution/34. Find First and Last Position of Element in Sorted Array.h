@@ -11,24 +11,31 @@
 
 class Solution {
     int lower_bound(vector<int>& nums, int target) {
-        int left = 0, right = (int) nums.size() - 1; // 闭区间 [left, right]
-        while (left <= right) { // 区间不为空
+        // 闭区间 [left, right]
+        int left = 0, right = (int) nums.size() - 1;
+        // 区间不为空
+        while (left <= right) {
 
             int mid = left + (right - left) / 2;
             if (nums[mid] >= target) {
-                right = mid - 1; // 范围缩小到 [left, mid-1]
+                // 范围缩小到 [left, mid-1]
+                right = mid - 1;
             } else {
-                left = mid + 1; // 范围缩小到 [mid+1, right]
+                // 范围缩小到 [mid+1, right]
+                left = mid + 1;
             }
         }
         return left;
     }
 
 public:
+    // 思路：两次二分查找求下界。第一次找target的起始位置，
+    // 若存在则第二次找target+1的下界，减1即为target的结束位置。
     vector<int> searchRange(vector<int>& nums, int target) {
         int start = lower_bound(nums, target);
         if (start == nums.size() || nums[start] != target) {
-            return {-1, -1}; // nums 中没有 target
+            // nums 中没有 target
+            return {-1, -1};
         }
         // 如果 start 存在，那么 end 必定存在
         int end = lower_bound(nums, target + 1) - 1;

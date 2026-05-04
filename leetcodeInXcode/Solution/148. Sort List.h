@@ -17,30 +17,41 @@ struct ListNode {
 
 class Solution {
 public:
+    // 思路：归并排序，使用快慢指针找到链表中点，递归拆分后合并两个有序链表。
     ListNode* sortList(ListNode* head) {
+        // 递归终止条件
         if (!head || !head->next) return head;
 
         ListNode* slow = head;
+        // fast先走一步，确保slow停在中间偏左
         ListNode* fast = head->next;
 
+        // 快慢指针找中点
         while (fast && fast->next) {
             slow = slow->next;
             fast = fast->next->next;
         }
 
         ListNode* mid = slow->next;
+        // 断开链表，分成两半
         slow->next = nullptr;
 
+        // 递归排序左半部分
         ListNode* left = sortList(head);
+        // 递归排序右半部分
         ListNode* right = sortList(mid);
 
+        // 合并两个有序链表
         return merge(left, right);
     }
 
+    // 思路：双指针遍历两个有序链表，依次取较小节点接到结果链表。
     ListNode* merge(ListNode* l1, ListNode* l2) {
+        // 虚拟头节点，简化边界处理
         ListNode dummy(0);
         ListNode* cur = &dummy;
 
+        // 两链表均非空时比较
         while (l1 && l2) {
             if (l1->val < l2->val) {
                 cur->next = l1;
@@ -52,6 +63,7 @@ public:
             cur = cur->next;
         }
 
+        // 拼接剩余部分
         cur->next = l1 ? l1 : l2;
         return dummy.next;
     }

@@ -18,20 +18,27 @@ public:
             });
         }
     };
+    // 思路：用字符计数数组作为哈希键，字母异位词具有相同的计数特征。
+    // 使用unordered_map将相同键的字符串分到同一组。
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        // 计数数组到结果索引的映射
         unordered_map<array<int, 26>, int, ArrayHash> map;
         vector<vector<string>> ans;
         int index = 0;
         for(auto str : strs) {
             array<int, 26> count = {0};
             for(auto c : str) {
+                // 统计每个字符出现次数
                 count[c - 'a']++;
             }
             if(map.find(count) != map.end()) {
+                // 已存在该键，加入对应分组
                 ans[map[count]].push_back(str);
             }
             else {
+                // 新键，分配新索引
                 map[count] = index++;
+                // 创建新分组
                 ans.push_back({str});
             }
         }

@@ -17,6 +17,8 @@ struct ListNode {
 
 class Solution {
 public:
+    // 思路：双指针法。两个指针分别遍历A+B和B+A，若有交点则会在交点处相遇，否则同时到达nullptr。
+    // 原理：两指针走过的总长度相等（lenA + lenB = lenB + lenA）。
     ListNode* getIntersectionNode(ListNode* headA, ListNode* headB) {
         if (!headA || !headB) return nullptr;
 
@@ -24,10 +26,13 @@ public:
         ListNode* pB = headB;
 
         while (pA != pB) {
+            // A走完切换到B头
             pA = pA ? pA->next : headB;
+            // B走完切换到A头
             pB = pB ? pB->next : headA;
         }
 
+        // 相交节点或nullptr
         return pA;
     }
 

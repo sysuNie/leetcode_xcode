@@ -19,14 +19,21 @@ struct TreeNode {
 
 class Solution {
 public:
+    // 思路：递归合并。如果其中一个节点为空，返回另一个节点；否则将 t2 的值加到 t1 上，然后递归合并左右子树。
     TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
+        // t1 为空，直接返回 t2
         if (!t1) return t2;
+        // t2 为空，直接返回 t1
         if (!t2) return t1;
 
+        // 合并当前节点的值
         t1->val += t2->val;
+        // 递归合并左子树
         t1->left = mergeTrees(t1->left, t2->left);
+        // 递归合并右子树
         t1->right = mergeTrees(t1->right, t2->right);
 
+        // 返回合并后的根节点
         return t1;
     }
 
