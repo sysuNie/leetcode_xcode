@@ -138,6 +138,7 @@
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		624280ED2F95D5430056E7BE /* JD */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = JD; sourceTree = "<group>"; };
+		62EC0C842FB2FE7700EF0C32 /* ByteDance */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ByteDance; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +155,7 @@
 		A21A79D41B1A4C4100BDD366 /* lintcode */ = {
 			isa = PBXGroup;
 			children = (
+				62EC0C842FB2FE7700EF0C32 /* ByteDance */,
 				624280ED2F95D5430056E7BE /* JD */,
 			);
 			name = lintcode;
@@ -336,6 +338,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				624280ED2F95D5430056E7BE /* JD */,
+				62EC0C842FB2FE7700EF0C32 /* ByteDance */,
 			);
 			name = leetcodeInXcode;
 			productName = leetcodeInXcode;
