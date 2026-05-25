@@ -44,6 +44,38 @@ class Solution {
         }
         return head.next;
     }
+    
+    ListNode *mergeKLists1(vector<ListNode *> &lists)
+    {
+        auto comp = [](ListNode * a, ListNode * b)
+        {
+            return a->val > b->val;
+        };
+        
+        priority_queue<ListNode *, vector<ListNode *>, decltype(comp)> pq(comp);
+        
+        for (ListNode* node : lists) {
+            if (node != nullptr) {
+                pq.push(node);
+            }
+        }
+        ListNode dummy(0);
+        ListNode* cur = &dummy;
+        
+        while (!pq.empty()) {
+            ListNode* node = pq.top();
+            pq.pop();
+            
+            cur->next = node;
+            cur = cur->next;
+            
+            if (node->next) {
+                pq.push(node->next);
+            }
+        }
+        
+        return dummy.next;
+    }
 
     void Test() {
         const int listNum = 5;
@@ -52,7 +84,7 @@ class Solution {
         for (int i = 0; i < listNum; i++) {
             lists.push_back(&entitys[i]);
         }
-        mergeKLists(lists);
+        mergeKLists1(lists);
     }
 };
 

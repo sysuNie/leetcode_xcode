@@ -19,6 +19,17 @@ struct TreeNode {
 };
 
 class Solution {
+private:
+    void dfs(TreeNode* root, vector<int>& res)
+    {
+        if (!root) {
+            return;
+        }
+        
+        dfs(root->left, res);
+        res.push_back(root->val);
+        dfs(root->right, res);
+    }
 public:
     // 思路：迭代实现中序遍历，利用栈模拟递归过程。先一路向左将节点压栈，到底后弹出访问，再转向右子树。
     vector<int> inorderTraversal(TreeNode* root) {

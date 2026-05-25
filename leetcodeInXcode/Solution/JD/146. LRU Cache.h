@@ -50,6 +50,43 @@ public:
     }
 };
 
+
+class LRUCache1 {
+private:
+    int cap;
+    std::list<std::pair<int, int>> m_list;
+    std::unordered_map<int, std::list<std::pair<int, int>>::iterator> m_map;
+
+public:
+    LRUCache1(int capacity) : cap(capacity) { }
+
+    int get(int key) {
+        auto it = m_map.find(key);
+        if (it == m_map.end()) return -1;
+        m_list.splice(m_list.begin(), m_list, it->second);
+        return it->second->second;
+    }
+
+    void put(int key, int value) {
+        auto it = m_map.find(key);
+        if (it != m_map.end())
+        {
+            it->second->second = value;
+            m_list.splice(m_list.begin(), m_list, it->second);
+            return;
+        }
+        else
+        {
+            if (m_map.size() == cap) {
+                m_map.erase(m_list.back().first);
+                m_list.pop_back();
+            }
+            m_list.emplace_front(key, value);
+            m_map[key] = m_list.begin();
+        }
+    }
+};
+
 class Solution {
 public:
     void Test()
